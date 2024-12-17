@@ -4,13 +4,16 @@ To help with planning your vacation to Hawaii I've conducted a climate analysis 
 
 In the first part I performed an analysis and data exploration of the climate database provided using Python, SqlAlchemy, Pandas, Matplotlib, and Flask.
 I found the most recent date in the dataset, queried the previous 12 months of precipitation data, loaded the results into a Pandas Dataframe, and then plotted the results. I also performed a statistical summary of the data.
+
 Here's a screenshot of the plot:
 ![Screenshot 2024-12-17 at 5 58 25 PM](https://github.com/user-attachments/assets/aa96dc57-bb96-4b56-9b1f-4504f183b30f)
 
 
 I also calculted the total number of stations in the dataset, identified the most active station, and queried the lowest, highest, and average temperatires for this station. I then plotted this data as a histogram.
+
 Here's a screenshot of the plot:
 ![Screenshot 2024-12-17 at 5 58 39 PM](https://github.com/user-attachments/assets/1977c863-3a8e-406d-b697-d85b3e2540f7)
+
 
 Next I designed a Flash API based on the analysis in part one. The API provides this data:
 - `/` - Homepage that lists all available routes.
